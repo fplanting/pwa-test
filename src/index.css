@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper {
+  background-color: #aca9ac;
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 200px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.buttonhey {
+  background-color: #ffffff;
+  width: 50px;
+  height: 20px;
+  border: none;
+  margin-top: 5px;
+  margin-left: 70px;
+  border-radius: 10px;
+}
