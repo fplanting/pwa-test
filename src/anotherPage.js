@@ -1,7 +1,9 @@
-export function anotherPage() {
+function AnotherPage() {
   return (
     <>
-      <div>Test</div>
+      <div className='test'>Test</div>
     </>
   );
 }
+
+export default AnotherPage;

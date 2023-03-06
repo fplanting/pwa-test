@@ -14,8 +14,8 @@ code {
 
 .wrapper {
   background-color: #aca9ac;
-  width: 200px;
-  height: 40px;
+  width: 500px;
+  height: 200px;
   margin-top: 20px;
   margin-left: 200px;
   padding: 20px;
@@ -29,5 +29,15 @@ code {
   border: none;
   margin-top: 5px;
   margin-left: 70px;
+  border-radius: 10px;
+}
+
+.test {
+  background-color: #dab2da;
+  width: 500px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 200px;
+  padding: 20px;
   border-radius: 10px;
 }

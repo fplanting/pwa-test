@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -21,11 +22,17 @@ function App() {
   // };
 
   // registerServiceWorker();
+  const navigate = useNavigate();
+  function handleClick() {
+    navigate('/AnotherPage');
+  }
   return (
     <>
-      {' '}
       <div className='wrapper'>
-        Testar PWA<button className='buttonhey'>Knapp</button>
+        Testar PWA
+        <button className='buttonhey' onClick={handleClick}>
+          Knapp
+        </button>
       </div>
       ;
     </>
